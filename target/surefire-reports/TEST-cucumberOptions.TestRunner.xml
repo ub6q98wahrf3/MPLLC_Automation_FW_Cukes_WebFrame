@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="0" name="cucumberOptions.TestRunner" time="0.504" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CukesProj"/>
+    <property name="PWD" value="/usr/local/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/love.vashista/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin:/usr/local/apache-maven-3.5.4:/usr/local/apache-maven-3.5.4/bin:/Users/love.vashista/Library/Android/Sdk:/Users/love.vashista/Library/Android/Sdk/bin:/Users/love.vashista/Library/Android/Sdk/tools:/Users/love.vashista/Library/Android/Sdk/tools/bin:/Users/love.vashista/Library/Android/Sdk/platform-tools:/usr/local/bin:/usr/local/lib/node_modules/npm/bin:/usr/local/lib/node_modules/appium/build/lib/main.js"/>
+    <property name="JAVA_MAIN_CLASS_1275" value="Main"/>
+    <property name="HUDSON_SERVER_COOKIE" value="83ef9add99f6ba26"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="DF1D455E-8C37-4561-B1E7-9BEC6DE0CECC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="love.vashista"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="CukesProj"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/CukesProj/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="TMPDIR" value="/var/folders/fy/9mgc8zd54291zrtxrdgwqxh5vs6jxj/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/local/apache-maven-3.5.4/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/CukesProj/1/display/redirect"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/CukesProj/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="ANDROID_TOOLS" value="/Users/love.vashista/Library/Android/Sdk/tools"/>
+    <property name="LOGNAME" value="love.vashista"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/love.vashista"/>
+    <property name="ANDROID_HOME_BINARIES" value="/Users/love.vashista/Library/Android/Sdk/bin"/>
+    <property name="user.home" value="/Users/love.vashista"/>
+    <property name="BUILD_TAG" value="jenkins-CukesProj-1"/>
+    <property name="JENKINS_SERVER_COOKIE" value="83ef9add99f6ba26"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/love.vashista/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.UlqBXkY8ni/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="ANDROID_TOOLS_BINARIES" value="/Users/love.vashista/Library/Android/Sdk/tools/bin"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/usr/local/apache-maven-3.5.4"/>
+    <property name="java.class.path" value="/Users/love.vashista/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/usr/local/apache-maven-3.5.4/boot/plexus-classworlds-2.5.2.jar:/usr/local/apache-maven-3.5.4/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /usr/local/apache-maven-3.5.4 /Users/love.vashista/.jenkins/war/WEB-INF/lib/remoting-3.25.jar /Users/love.vashista/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /Users/love.vashista/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 54163"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="NODE_HOME" value="/usr/local/bin"/>
+    <property name="MAVEN_BINARIES" value="/usr/local/apache-maven-3.5.4/bin"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/local/apache-maven-3.5.4"/>
+    <property name="java.io.tmpdir" value="/var/folders/fy/9mgc8zd54291zrtxrdgwqxh5vs6jxj/T/"/>
+    <property name="HUDSON_HOME" value="/Users/love.vashista/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/apache-maven-3.5.4/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/CukesProj/1/"/>
+    <property name="OLDPWD" value="/Users/love.vashista"/>
+    <property name="NPM_HOME" value="/usr/local/lib/node_modules/npm/bin"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.Ghogch4ZGb/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/love.vashista/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x779347B1:0x0:0x0"/>
+    <property name="user.dir" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_Cukes_WebFrame"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/CukesProj/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/usr/local/apache-maven-3.5.4"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="ANDROID_HOME" value="/Users/love.vashista/Library/Android/Sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="404"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/love.vashista/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar"/>
+    <property name="APPIUM_BINARY_PATH" value="/usr/local/lib/node_modules/appium/build/lib/main.js"/>
+    <property name="WORKSPACE" value="/Users/love.vashista/Documents/Eclipse_Workspace/FrameWorks/MPLLC_Cukes_WebFrame"/>
+    <property name="maven3.interceptor.common" value="/Users/love.vashista/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar"/>
+    <property name="JAVA_BINARIES" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="ANDROID_PLATFORM_TOOLS" value="/Users/love.vashista/Library/Android/Sdk/platform-tools"/>
+    <property name="USER" value="love.vashista"/>
+  </properties>
+  <testcase classname="Scenario: GMail Login" name="When User clicks on the Sign In button on the homepage" time="0.002"/>
+  <testcase classname="Scenario: GMail Login" name="And User enters &quot;love.vashista@mobileprogramming.net&quot; on the username page" time="0"/>
+  <testcase classname="Scenario: GMail Login" name="And User enters &quot;password12345&quot; on the password page" time="0"/>
+  <testcase classname="Scenario: GMail Login" name="Then The user should be redirected on the same page with an error message: &quot;Wrong password. Try again or click Forgot password to reset it.&quot;" time="0"/>
+  <testcase classname="Scenario: GMail Login" name="Scenario: GMail Login" time="0.198"/>
+  <testcase classname="| a@aa.com | 11111 |" name="Given The user is on the rediff homepage" time="0"/>
+  <testcase classname="| a@aa.com | 11111 |" name="When The user enters a@aa.com and password 11111" time="0"/>
+  <testcase classname="| a@aa.com | 11111 |" name="And Unchecks the Keep Me Sign In checkbox" time="0"/>
+  <testcase classname="| a@aa.com | 11111 |" name="And Clicks on Login Button" time="0"/>
+  <testcase classname="| a@aa.com | 11111 |" name="Then The user should get redirected to the same page" time="0"/>
+  <testcase classname="| a@aa.com | 11111 |" name="| a@aa.com | 11111 |" time="0.086"/>
+  <testcase classname="| b@bb.com | 22222 |" name="Given The user is on the rediff homepage" time="0"/>
+  <testcase classname="| b@bb.com | 22222 |" name="When The user enters b@bb.com and password 22222" time="0"/>
+  <testcase classname="| b@bb.com | 22222 |" name="And Unchecks the Keep Me Sign In checkbox" time="0"/>
+  <testcase classname="| b@bb.com | 22222 |" name="And Clicks on Login Button" time="0.001"/>
+  <testcase classname="| b@bb.com | 22222 |" name="Then The user should get redirected to the same page" time="0"/>
+  <testcase classname="| b@bb.com | 22222 |" name="| b@bb.com | 22222 |" time="0.133"/>
+  <testcase classname="| c@cc.com | 33333 |" name="Given The user is on the rediff homepage" time="0.001"/>
+  <testcase classname="| c@cc.com | 33333 |" name="When The user enters c@cc.com and password 33333" time="0.001"/>
+  <testcase classname="| c@cc.com | 33333 |" name="And Unchecks the Keep Me Sign In checkbox" time="0"/>
+  <testcase classname="| c@cc.com | 33333 |" name="And Clicks on Login Button" time="0"/>
+  <testcase classname="| c@cc.com | 33333 |" name="Then The user should get redirected to the same page" time="0"/>
+  <testcase classname="| c@cc.com | 33333 |" name="| c@cc.com | 33333 |" time="0.082"/>
+</testsuite>

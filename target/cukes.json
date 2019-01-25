@@ -1,0 +1,462 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5945822799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_GMail_Login.initConfigs()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "GMail Login",
+        "description": "",
+        "id": "gmail-login;gmail-login",
+        "after": [
+          {
+            "result": {
+              "duration": 196717089,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_GMail_Login.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42573993817,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the Sign In button on the homepage",
+            "match": {
+              "location": "stepDefinition_GMail_Login.user_clicks_on_the_Sign_In_button_on_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2003096293,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"love.vashista@mobileprogramming.net\" on the username page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "love.vashista@mobileprogramming.net",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition_GMail_Login.user_enters_something_on_the_username_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1874777234,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"password12345\" on the password page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password12345",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition_GMail_Login.user_enters_something_on_the_password_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577720724,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should be redirected on the same page with an error message: \"Wrong password. Try again or click Forgot password to reset it.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wrong password. Try again or click Forgot password to reset it.",
+                  "offset": 71
+                }
+              ],
+              "location": "stepDefinition_GMail_Login.the_user_should_be_redirected_on_the_same_page_with_an_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@GmailTest"
+          }
+        ]
+      }
+    ],
+    "name": "GMail Login",
+    "description": "",
+    "id": "gmail-login",
+    "keyword": "Feature",
+    "uri": "GMail_Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2519916030,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.initConfigs()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Rediff Login",
+        "description": "",
+        "id": "rediff-login;rediff-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 84272996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11582594,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the rediff homepage",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.the_user_is_on_the_rediff_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2522569055,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user enters a@aa.com and password 11111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a@aa.com",
+                  "offset": 16
+                },
+                {
+                  "val": "11111",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinition_RediffMail_Login.the_user_enters_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 614850972,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Unchecks the Keep Me Sign In checkbox",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.unchecks_the_keep_me_sign_in_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984870390,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks on Login Button",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.Clicks_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5899967,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should get redirected to the same page",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.the_user_should_get_redirected_to_the_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RediffTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2374347490,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.initConfigs()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Rediff Login",
+        "description": "",
+        "id": "rediff-login;rediff-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 131095234,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14016405,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the rediff homepage",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.the_user_is_on_the_rediff_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2186893615,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user enters b@bb.com and password 22222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "b@bb.com",
+                  "offset": 16
+                },
+                {
+                  "val": "22222",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinition_RediffMail_Login.the_user_enters_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 616792537,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Unchecks the Keep Me Sign In checkbox",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.unchecks_the_keep_me_sign_in_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878285071,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks on Login Button",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.Clicks_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4925302,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should get redirected to the same page",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.the_user_should_get_redirected_to_the_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RediffTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2159140976,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.initConfigs()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Rediff Login",
+        "description": "",
+        "id": "rediff-login;rediff-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 81044936,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14801330,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the rediff homepage",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.the_user_is_on_the_rediff_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2215792359,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user enters c@cc.com and password 33333",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c@cc.com",
+                  "offset": 16
+                },
+                {
+                  "val": "33333",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinition_RediffMail_Login.the_user_enters_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600992182,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Unchecks the Keep Me Sign In checkbox",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.unchecks_the_keep_me_sign_in_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891617724,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks on Login Button",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.Clicks_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4985071,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should get redirected to the same page",
+            "match": {
+              "location": "stepDefinition_RediffMail_Login.the_user_should_get_redirected_to_the_same_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RediffTest"
+          }
+        ]
+      }
+    ],
+    "name": "Rediff Login",
+    "description": "",
+    "id": "rediff-login",
+    "keyword": "Feature",
+    "uri": "Rediff_Login.feature"
+  }
+]
